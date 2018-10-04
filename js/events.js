@@ -14,11 +14,11 @@ function submitIt() {
   if ($('form').val() === submit {
     alert("Your form is going to be submitted now.")
       return
-  }
-})//define functions here
+  })
+}//define functions here
 $(document).ready(function(){
 
  getIt();// call functions here
-  frameIt();
-  submitIt();
+ frameIt();
+ submitIt();
 })
