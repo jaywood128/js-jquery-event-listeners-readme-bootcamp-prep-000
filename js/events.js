@@ -14,7 +14,14 @@ function submitIt() {
     alert("Your form is going to be submitted now.")
       return
   })
-}//define functions here
+}
+function pressIt() {
+  $(document).on('keydown', function(key)
+{ 
+  if(key.which == 71)
+   alert('g was pressed')
+ }
+}) //define functions here
 $(document).ready(function(){
 
  getIt();// call functions here
