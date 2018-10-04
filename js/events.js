@@ -11,17 +11,17 @@ function frameIt() {
 }
 function submitIt() {
   $('form').on("submit", function() {
-  if ($("input:first").val() ==="correct") {
+  if ($("input:first").val() === "correct") {
     alert('your form is going to be submitted now')
-    return;
+    return
   }
     alert("you entered the wrong value")
-    return;
+    return
 
 })//define functions here
 $(document).ready(function(){
 
- getIt();// call functions here
+ // getIt();// call functions here
   frameIt();
-  submitIt();
+  // submitIt();
 });
