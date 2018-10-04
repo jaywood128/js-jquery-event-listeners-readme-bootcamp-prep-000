@@ -16,7 +16,7 @@ function submit() {
     return
   })
 
-}//define functions here
+}}//define functions here
 $(document).ready(function(){
 
  //getIt();// call functions here
