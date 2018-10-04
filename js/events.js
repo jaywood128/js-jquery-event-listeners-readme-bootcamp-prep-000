@@ -18,7 +18,7 @@ function submitIt() {
 })//define functions here
 $(document).ready(function(){
 
- // getIt();// call functions here
+ getIt();// call functions here
   frameIt();
-  // submitIt();
+  submitIt();
 });
