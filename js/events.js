@@ -22,6 +22,6 @@ function submIt() {
 $(document).ready(function(){
 
  //getIt();// call functions here
-  frameIt();
-  submitIt();
+  // frameIt();
+  // submitIt();
 });
